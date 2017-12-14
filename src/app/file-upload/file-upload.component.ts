@@ -3,7 +3,7 @@ import {FileItem, FileUploader} from 'ng2-file-upload';
 import {FormControl, Validators} from '@angular/forms';
 
 // const URL = '/api/';
-const URL = 'https://example.com/vote_uploader';
+const URL = 'https://example2.com/vote_uploader';
 
 @Component({
   selector: 'app-file-upload',
