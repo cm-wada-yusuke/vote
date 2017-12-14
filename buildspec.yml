@@ -9,11 +9,10 @@ phases:
       - npm install
   build:
     commands:
-      - echo Build started on `date`
       - ng build
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Nothing to do in the install phase...
 artifacts:
   base-directory: 'dist*'
   discard-paths: yes

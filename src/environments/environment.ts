@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  region: 'ap-northeast-1',
+  userPoolId: 'ap-northeast-1_xxxxxxxx', // User Pools の画面から取得できる User Pools そのもののID。
+  clientId: 'xxxxxxxxxxxxxxxx'  // User Pools で作成できる、発行したクライアントアプリケーションのID。
 };
