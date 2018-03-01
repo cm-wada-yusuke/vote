@@ -12,11 +12,6 @@ phases:
       - ng build
   post_build:
     commands:
-      - echo Nothing to do in the install phase...
-artifacts:
-  base-directory: 'dist*'
-  discard-paths: yes
-  files:
-      - '**/*'
+      - aws s3 sync dist s3://vote-uploader/site --delete
 
 
